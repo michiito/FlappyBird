@@ -13,6 +13,8 @@
 		3818593D2497A3AA00834ED7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3818593B2497A3AA00834ED7 /* Main.storyboard */; };
 		3818593F2497A3B100834ED7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3818593E2497A3B100834ED7 /* Assets.xcassets */; };
 		381859422497A3B100834ED7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 381859402497A3B100834ED7 /* LaunchScreen.storyboard */; };
+		3818594A2499CD2500834ED7 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381859492499CD2500834ED7 /* GameScene.swift */; };
+		3818594C249DEF7B00834ED7 /* bird_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3818594B249DEF7B00834ED7 /* bird_sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3818593E2497A3B100834ED7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		381859412497A3B100834ED7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		381859432497A3B100834ED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		381859492499CD2500834ED7 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		3818594B249DEF7B00834ED7 /* bird_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bird_sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				3818593E2497A3B100834ED7 /* Assets.xcassets */,
 				381859402497A3B100834ED7 /* LaunchScreen.storyboard */,
 				381859432497A3B100834ED7 /* Info.plist */,
+				381859492499CD2500834ED7 /* GameScene.swift */,
+				3818594B249DEF7B00834ED7 /* bird_sound.mp3 */,
 			);
 			path = FlappyBird;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				381859422497A3B100834ED7 /* LaunchScreen.storyboard in Resources */,
+				3818594C249DEF7B00834ED7 /* bird_sound.mp3 in Resources */,
 				3818593F2497A3B100834ED7 /* Assets.xcassets in Resources */,
 				3818593D2497A3AA00834ED7 /* Main.storyboard in Resources */,
 			);
@@ -140,6 +147,7 @@
 			files = (
 				3818593A2497A3AA00834ED7 /* ViewController.swift in Sources */,
 				381859362497A3AA00834ED7 /* AppDelegate.swift in Sources */,
+				3818594A2499CD2500834ED7 /* GameScene.swift in Sources */,
 				381859382497A3AA00834ED7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,7 +301,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.michi.ito.FlappyBird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +318,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.michi.ito.FlappyBird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
